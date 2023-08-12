@@ -66,20 +66,22 @@ docker run -d slackBotGPT slackBotGPT
 ```
 ## Results
 
-### @Hibot Command
-
+### @Hibot
 <div align="left">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png" height="550" width="400">
+<img src="https://github.com/rcedros/SlackBotGPT/assets/12600917/941d96a7-8549-4ea5-998b-0f4976537a65" height="600" width="500">
 </div>
 
-### @code-refactor Command
-
+### @code-refactor
 <div align="left">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/refactor.png" height="450" width="350">
+<img src="https://github.com/rcedros/SlackBotGPT/assets/12600917/a5794ba8-6e5b-45c0-9f0e-b7ca44394e65" height="450" width="350">
 </div>
 
-### code-security Command
-
+### @code-security
 <div align="left">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/security.png" height="900" width="550">
+<img src="https://github.com/rcedros/SlackBotGPT/assets/12600917/4b0fe656-66f7-44f1-be3b-8422d4e28d29" height="900" width="550">
+</div>
+
+### Block sensetive Info
+<div align="left">
+<img src="https://github.com/rcedros/SlackBotGPT/assets/12600917/13804a77-9e86-483b-adda-c91e4de68039" height="300" width="450">
 </div>
