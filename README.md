@@ -69,7 +69,7 @@ docker run -d slackBotGPT slackBotGPT
 ### @Hibot Command
 
 <div align="left">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png" height="600" width="500">
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png" height="600" width="450">
 </div>
 
 ### @code-refactor Command
