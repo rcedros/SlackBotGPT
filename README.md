@@ -42,7 +42,8 @@ You can use it like a ChatGPT starting commands:
 3.  **Socket Mode:**
     * Enable Socket Mode and click in `Event Subscriptions` to enable.
   
-5.  **Event Subscriptions:** In Subscribe to bot events, add Event Name
+5.  **Event Subscriptions:**
+    * In Subscribe to bot events, add Event Name
     * `app_mention`
     * `im_history_changed`
     * `message.channels`
@@ -54,13 +55,14 @@ You can use it like a ChatGPT starting commands:
      * Mark checkbox: `Allow users to send Slash commands and messages from the messages tab` in Show Tabs.
    
 9.   **OAuth & Permissions:**
-     * Ceate and copy the `Bot User OAuth Token`: `xoxb-...` and in `Scopes` option add:
-     * `app_mentions:read`
-     * `channels:history`
-     * `channels:read`
-     * `chat:write`
-     * `im:history`
-     * `im:read`
+     * Ceate and copy the `Bot User OAuth Token`: `xoxb-...`
+     * `Scopes option` add:
+         * `app_mentions:read`
+         * `channels:history`
+         * `channels:read`
+         * `chat:write`
+         * `im:history`
+         * `im:read`
     
 11.  **Install App:** Click for Install to Workspace.
 
