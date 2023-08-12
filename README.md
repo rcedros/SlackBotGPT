@@ -50,9 +50,9 @@ You can use it like a ChatGPT starting commands:
     * `message.im`.
    
 7.   **App Home:**
-     * Config `App Display Name` to give bot name
-     * Change enable `Messages Tab`
-     * Mark checkbox: `Allow users to send Slash commands and messages from the messages tab` in Show Tabs.
+     * Config `App Display Name` to give bot name.
+     * Enable `Messages Tab`.
+         * Set checkbox: `Allow users to send Slash commands and messages from the messages tab` in Show Tabs.
    
 9.   **OAuth & Permissions:**
      * Ceate and copy the `Bot User OAuth Token`: `xoxb-...`
