@@ -3,9 +3,9 @@ import validate_docbr as docbr
 from creditcard_validate import check_issuer, check_card_number
 
 ##############################################################################################
-#    Documentos gerados atráves https://www.4devs.com.br/computacao                          #
+#    Brazilian documents generates here => https://www.4devs.com.br/computacao               #
 #                                                                                            # 
-#    CARTÃO DE CRÉDITO: 5564 7813 7674 7251 | 5564781376747251                               #
+#    Credit Card: 5564 7813 7674 7251 | 5564781376747251                               #
 #    CPF: 418.540.270-85 | 41854027085                                                       #
 #    CNS: 03977291368                                                                        #
 #    PIS: 76263869822 | 762.63869.82-2                                                       # 
@@ -112,5 +112,5 @@ def contains_prohibited(text):
     ]
     for word in keywords:
         if word in text.lower():
-            return f"Desculpe, não podemos processar sua mensagem. Aparentemente contém a palavra: `{word}`. Por gentileza, remova a palavra e seu conteúdo. É importante manter as informações da companhia e pessoais seguras. Se você tiver alguma outra pergunta ou solicitação, estou aqui para ajudar."
+            return f"Sorry, we cannot process your message. It appears to contain the word: `{word}`. Please remove the word and its content. It is important to keep company and personal information secure. If you have any other questions or requests, I am here to help."
     return text
