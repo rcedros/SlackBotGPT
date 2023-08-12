@@ -4,7 +4,7 @@ from slack_bolt.adapter.socket_mode import SocketModeHandler
 from secret_access import SLACK_APP_TOKEN, SLACK_BOT_TOKEN
 from refatorador import process_code, process_message, info
 
-app = App(token=SLACK_BOT_TOKEN, name="Neon-GPT")
+app = App(token=SLACK_BOT_TOKEN, name="SlackBotGPT")
 logger = logging.getLogger(__name__)
 
 @app.message(r"@Hibot")
