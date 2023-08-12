@@ -66,6 +66,12 @@ docker run -d slackBotGPT slackBotGPT
 ```
 ## Results
 
-![alt text](https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png)https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png)
+<div align="left">
+https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png" height="450" width="350">
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/refatorador.py" height="450" width="350">
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/security.png" height="450" width="350">
+</div>
+
 
 
