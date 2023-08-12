@@ -19,8 +19,8 @@ You will find details here: [chatbot_pii.py](https://github.com/rcedros/SlackBot
 You can use it like a ChatGPT, in addition, I implemented three features:
 
 * `@SlackGPT`: Opens a chat conversation like a chatbot in the same thread.
-* `@SlackGPT refactor`: Refactor the code based on the information entered by the user in the same thread.
-* `@SlackGPT security`: Refactor the code based on the vulnerability and the information entered by the user in the same thread.
+* `@SlackGPT-refactor`: Refactor the code based on the information entered by the user in the same thread.
+* `@SlackGPT-security`: Refactor the code based on the vulnerability and the information entered by the user in the same thread.
 
 ## Let's Implementations
 
