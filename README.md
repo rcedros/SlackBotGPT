@@ -22,7 +22,7 @@ You can use it like a ChatGPT starting commands:
 * `@code-refactor`: Refactor the code based on the information entered by the user in the same thread.
 * `@code-security`: Refactor the code based on the vulnerability and the information entered by the user in the same thread.
 
-## Let's Implementations
+## SETUP
 
 ### Slack
 
@@ -44,13 +44,13 @@ You can use it like a ChatGPT starting commands:
     
 11.   **Install App:** Click for Install to Workspace.
 
-### OpenAI setep
+### OpenAI
 
 1. Create Account in [openai.com](https://openai.com)
 2. In menu, click in view API Keys
 3. Create new secret key, give a name and copy and save secret key: 'sk-...'
 
-### Configuration Keys setup:
+### Configuration Keys:
 
 1. Update secrets keys in [secret_acces.py](https://github.com/rcedros/SlackBotGPT/blob/main/secret_access.py) with keys that saved.
 ```
