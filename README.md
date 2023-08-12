@@ -55,7 +55,7 @@ You can use it like a ChatGPT starting commands:
 
 1. Create Account in [openai.com](https://openai.com)
 2. In menu, click in view API Keys
-3. Create new secret key, give a name and copy and save secret key: 'sk-...'
+3. Create new secret key, give a name and copy and save secret key: `sk-...`
 
 ### Keys
 
