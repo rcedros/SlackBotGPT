@@ -7,19 +7,19 @@ from refatorador import process_code, process_message, info
 app = App(token=SLACK_BOT_TOKEN, name="neon-gpt")
 logger = logging.getLogger(__name__)
 
-@app.message(r"@SlackBotGPT")
+@app.message(r"@SlackGPT")
 def start_conversation(message, say):
     user_id = message['user']
     info[user_id] = {'type': 'random', 'thread': message['ts']}
     say("Olá, Como posso ajudar?", thread_ts=message['ts'])
 
-@app.message(r"@SlackBotGPT-security")
+@app.message(r"@SlackGPT-security")
 def ask_security_questions(message, say):
     user_id = message['user']
     info[user_id] = {'type': 'security', 'thread': message['ts']}
     say("Qual é o nome da vulnerabilidade encontrada?", thread_ts=message['ts'])
 
-@app.message(r"@SlackBotGPT-refactor")
+@app.message(r"@SlackGPT-refactor")
 def ask_security_questions(message, say):
     user_id = message['user']
     info[user_id] = {'type': 'refactor', 'thread': message['ts']}
