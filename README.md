@@ -11,7 +11,7 @@ The bot validates if the user inserted in the thread any Brazilian document such
 
 To do this parse, I am using the [validate_docbr](https://github.com/alvarofpp/validate-docbr/tree/main) library.
 
-Another security feature is blocking the sending of most commonly used secrets, in this case the bot returns a response for the user to evaluate or replace the value, example: `key`, `token`, `password`, `secret`, `passwd`, `password`.
+Another security validation is blocking of most commonly used sensetive secrets. In this case, the bot returns a response for the user to evaluate or replace the value, example: `key`, `token`, `password`, `secret`, `passwd`, `password`.
 
 You will find details here: [chatbot_pii.py](https://github.com/rcedros/SlackBotGPT/blob/main/filter_pii.py).
 
@@ -59,6 +59,5 @@ OPEN_IA_TOKEN = 'sk-...'
 docker build -t slackBotGPT .
 docker run -d slackBotGPT slackBotGPT
 ```
-
 ## Results
 
