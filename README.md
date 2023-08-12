@@ -16,7 +16,7 @@ Another security validation is blocking of most commonly used sensetive secrets.
 You will find details here: [chatbot_pii.py](https://github.com/rcedros/SlackBotGPT/blob/main/filter_pii.py).
 
 ### Commands in Slackbot:
-You can use it like a ChatGPT, in addition, I implemented three features:
+You can use it like a ChatGPT starting commands:
 
 * `@Hibot`: Opens a chat conversation like a chatbot in the same thread.
 * `@code-refactor`: Refactor the code based on the information entered by the user in the same thread.
