@@ -33,11 +33,16 @@ You can use it like a ChatGPT, in addition, I implemented three features:
 **Menu (Settings and Features)**
 
 1.  **Basic Information:** create a App-Level Tokens, choose all scoles (connections:write, authorizations:read, app_configurations:write). Copy and save the Token: `xapp-1-...`
-2.  **Socket Mode:** Enable Socket Mode and click in `Event Subscriptions` to enable.
-3.   **Event Subscriptions:** In Subscribe to bot events: add Event Name:`app_mention`, `im_history_changed`, `message.channels` and `message.im`.
-4.   **App Home:** Config `App Display Name` to give bot name and change enable `Messages Tab` and mark checkbox: `Allow users to send Slash commands and messages from the messages tab` in Show Tabs.
-5.   **OAuth & Permissions:** create and copy the `Bot User OAuth Token`: `xoxb-...` and in `Scopes` option add: `app_mentions:read`, `channels:history`, `channels:read`, `chat:write`, `im:history`, `im:read`.
-6.   **Install App:** Click for Install to Workspace.
+
+3.  **Socket Mode:** Enable Socket Mode and click in `Event Subscriptions` to enable.
+  
+5.   **Event Subscriptions:** In Subscribe to bot events: add Event Name:`app_mention`, `im_history_changed`, `message.channels` and `message.im`.
+   
+7.   **App Home:** Config `App Display Name` to give bot name and change enable `Messages Tab` and mark checkbox: `Allow users to send Slash commands and messages from the messages tab` in Show Tabs.
+   
+9.   **OAuth & Permissions:** create and copy the `Bot User OAuth Token`: `xoxb-...` and in `Scopes` option add: `app_mentions:read`, `channels:history`, `channels:read`, `chat:write`, `im:history`, `im:read`.
+    
+11.   **Install App:** Click for Install to Workspace.
 
 ### OpenAI setep
 
