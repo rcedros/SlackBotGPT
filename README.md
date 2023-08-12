@@ -57,7 +57,7 @@ You can use it like a ChatGPT starting commands:
 2. In menu, click in view API Keys
 3. Create new secret key, give a name and copy and save secret key: 'sk-...'
 
-### Configuration Keys:
+### Keys
 
 1. Update secrets keys in [secret_acces.py](https://github.com/rcedros/SlackBotGPT/blob/main/secret_access.py) with keys that saved.
 ```
