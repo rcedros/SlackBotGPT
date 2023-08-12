@@ -59,7 +59,7 @@ def process_code(message, say, context_type='random'):
         if context_type !='random':
             if 'ts' in message:
                 say(thread_ts=message['ts'], text=response_message['choices'][0]['message']['content'])
-                say("A refatoração foi satisfatória? Responda com *Sim* ou *Não*.", thread_ts=message['ts'])
+                say("Was the refactoring satisfactory? Answer with *Yes* or *No*.", thread_ts=message['ts'])
                 info[user_id]['satisfied'] = True
             else:
                 if 'ts' in message:
