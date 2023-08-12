@@ -67,10 +67,11 @@ docker run -d slackBotGPT slackBotGPT
 ## Results
 
 <div align="left">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png" height="450" width="350">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/refactor.png" height="450" width="350">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/security.png" height="450" width="350">
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png" height="600" width="500">
 </div>
-
-
-
+<div align="left">
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/refactor.png" height="600" width="500">
+</div>
+<div align="left">
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/security.png" height="600" width="500">
+</div>
