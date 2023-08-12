@@ -64,5 +64,8 @@ OPEN_IA_TOKEN = 'sk-...'
 docker build -t slackBotGPT .
 docker run -d slackBotGPT slackBotGPT
 ```
+## Results
+
+![alt text](https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png)https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png)
 
 
