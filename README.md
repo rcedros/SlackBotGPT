@@ -68,7 +68,7 @@ docker run -d slackBotGPT slackBotGPT
 
 <div align="left">
 <img src="https://github.com/rcedros/SlackBotGPT/blob/main/hibot.png" height="450" width="350">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/refatorador.py" height="450" width="350">
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/refactor.png" height="450" width="350">
 <img src="https://github.com/rcedros/SlackBotGPT/blob/main/security.png" height="450" width="350">
 </div>
 
