@@ -22,9 +22,9 @@ You can use it like a ChatGPT, in addition, I implemented three features:
 * `@code-refactor`: Refactor the code based on the information entered by the user in the same thread.
 * `@code-security`: Refactor the code based on the vulnerability and the information entered by the user in the same thread.
 
-## Let's Implementations setup
+## Let's Implementations
 
-### Slack Bot setup
+### Slack
 
 1. Access [api.slack.com](https://api.slack.com) and login in your workspace.
 2. Click in `Your Apps` and `Create an app`, select `From Scratch` option.
