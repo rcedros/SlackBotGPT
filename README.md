@@ -75,7 +75,7 @@ docker run -d slackBotGPT slackBotGPT
 ### @code-refactor Command
 
 <div align="left">
-<img src="https://github.com/rcedros/SlackBotGPT/blob/main/refactor.png" height="550" width="450">
+<img src="https://github.com/rcedros/SlackBotGPT/blob/main/refactor.png" height="450" width="350">
 </div>
 
 ### code-security Command
