@@ -22,32 +22,23 @@ You can use it like a ChatGPT starting commands:
 * `@code-refactor`: Refactor the code based on the information entered by the user in the same thread.
 * `@code-security`: Refactor the code based on the vulnerability and the information entered by the user in the same thread.
 
-## SETUP
+## Setup
 
 ### Slack
-
 1. Access [api.slack.com](https://api.slack.com) and login in your workspace.
 2. Click in `Your Apps` and `Create an app`, select `From Scratch` option.
 3. Create a App and select your workspace option.
 
 **Menu (Settings and Features)**
-
 1.  **Basic Information:**
-     * create a App-Level Tokens, choose all scopes:
-     * connections:write
-     * authorizations:read
-     * app_configurations:write
+     * Create a App-Level Tokens, choose all scopes: `connections:write`, `authorizations:read`, `app_configurations:write`
      * Copy and save the Token: `xapp-1-...`
 
 3.  **Socket Mode:**
     * Enable Socket Mode and click in `Event Subscriptions` to enable.
   
 5.  **Event Subscriptions:**
-    * In Subscribe to bot events, add Event Name
-    * `app_mention`
-    * `im_history_changed`
-    * `message.channels`
-    * `message.im`.
+    * In Subscribe to bot events, add Event Name: `app_mention`, `im_history_changed`, `message.channels`, `message.im`.
    
 7.   **App Home:**
      * Config `App Display Name` to give bot name.
@@ -55,14 +46,8 @@ You can use it like a ChatGPT starting commands:
          * Set checkbox: `Allow users to send Slash commands and messages from the messages tab` in Show Tabs.
    
 9.   **OAuth & Permissions:**
-     * Ceate and copy the `Bot User OAuth Token`: `xoxb-...`
-     * `Scopes option` add:
-         * `app_mentions:read`
-         * `channels:history`
-         * `channels:read`
-         * `chat:write`
-         * `im:history`
-         * `im:read`
+     * Create and copy the `Bot User OAuth Token`: `xoxb-...`
+     * In Scopes option select: `app_mentions:read`, `channels:history`, `channels:read`, `chat:write`, `im:history`, `im:read`
     
 11.  **Install App:** Click for Install to Workspace.
 
