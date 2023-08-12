@@ -16,15 +16,15 @@ Another security validation is blocking of most commonly used sensetive secrets.
 You will find details here: [chatbot_pii.py](https://github.com/rcedros/SlackBotGPT/blob/main/filter_pii.py).
 
 ### Commands in Slackbot:
-You can use it like a ChatGPT, in addition, I implemented two features for retatoring of code and refactoring of vulnerable code.
+You can use it like a ChatGPT, in addition, I implemented three features:
 
-* `@Hibot`: Opens a chat conversation in the same thread.
+* `@Hibot`: Opens a chat conversation like a chatbot in the same thread.
 * `@code-refactor`: Refactor the code based on the information entered by the user in the same thread.
 * `@code-security`: Refactor the code based on the vulnerability and the information entered by the user in the same thread.
 
-## Let's Implementations
+## Let's Implementations setup
 
-### Slack Bot Step
+### Slack Bot setup
 
 1. Access [api.slack.com](https://api.slack.com) and login in your workspace.
 2. Click in `Your Apps` and `Create an app`, select `From Scratch` option.
@@ -39,13 +39,13 @@ You can use it like a ChatGPT, in addition, I implemented two features for retat
 5.   **OAuth & Permissions:** create and copy the `Bot User OAuth Token`: `xoxb-...` and in `Scopes` option add: `app_mentions:read`, `channels:history`, `channels:read`, `chat:write`, `im:history`, `im:read`.
 6.   **Install App:** Click for Install to Workspace.
 
-### OpenAI Steps
+### OpenAI setep
 
 1. Create Account in [openai.com](https://openai.com)
 2. In menu, click in view API Keys
 3. Create new secret key, give a name and copy and save secret key: 'sk-...'
 
-### Configuration code steps:
+### Configuration Keys setup:
 
 1. Update secrets keys in [secret_acces.py](https://github.com/rcedros/SlackBotGPT/blob/main/secret_access.py) with keys that saved.
 ```
@@ -59,5 +59,5 @@ OPEN_IA_TOKEN = 'sk-...'
 docker build -t slackBotGPT .
 docker run -d slackBotGPT slackBotGPT
 ```
-## Results
+
 
