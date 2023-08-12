@@ -13,7 +13,7 @@ To do this parse, I am using the [validate_docbr](https://github.com/alvarofpp/v
 
 Another security feature is blocking the sending of most commonly used secrets, in this case the bot returns a response for the user to evaluate or replace the value, example: `key`, `token`, `password`, `secret`, `passwd`, `password`.
 
-You will find details here: [chatbot_pii.py]().
+You will find details here: [chatbot_pii.py](https://github.com/rcedros/SlackBotGPT/blob/main/filter_pii.py).
 
 ### Commands in Slackbot:
 You can use it like a ChatGPT, in addition, I implemented two features for retatoring of code and refactoring of vulnerable code.
@@ -47,7 +47,7 @@ You can use it like a ChatGPT, in addition, I implemented two features for retat
 
 ### Configuration code steps:
 
-1. Update secrets keys in ``secret_acces.py`` file with keys that saved.
+1. Update secrets keys in [secret_acces.py](https://github.com/rcedros/SlackBotGPT/blob/main/secret_access.py) with keys that saved.
 ```
 SLACK_APP_TOKEN = 'xapp-1-...'
 SLACK_BOT_TOKEN = 'xoxb-...'
