@@ -1,7 +1,7 @@
 
 import openai
 from secret_access import OPEN_IA_TOKEN
-from filter_pii import remove_pii, contains_prohibited
+from pii_filter import remove_pii, contains_prohibited
 
 openai.api_key = OPEN_IA_TOKEN
 
