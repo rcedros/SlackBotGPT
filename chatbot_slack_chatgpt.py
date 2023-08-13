@@ -23,7 +23,7 @@ def ask_security_questions(message, say):
 def ask_refactor_questions(message, say):
     user_id = message['user']
     info[user_id] = {'type': 'refactor', 'thread': message['ts']}
-    say("What is the language code?", thread_ts=message['ts'])
+    say("What is the code language used?", thread_ts=message['ts'])
 
 @app.message("")
 def handle_message(message, say):
