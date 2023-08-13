@@ -22,6 +22,8 @@ You can use it like a ChatGPT starting commands:
 * `@code-refactor`: Refactor the code based on the information entered by the user in the same thread.
 * `@code-security`: Refactor the code based on the vulnerability and the information entered by the user in the same thread.
 
+https://github.com/rcedros/SlackBotGPT/assets/12600917/4ec9dea1-0a60-4d27-a2c3-4a99bf291df5
+
 ## Setup
 
 ### Slack
@@ -71,6 +73,5 @@ OPEN_IA_TOKEN = 'sk-...'
 docker build -t slackBotGPT .
 docker run -d slackBotGPT slackBotGPT
 ```
-## Results
 
-https://github.com/rcedros/SlackBotGPT/assets/12600917/4ec9dea1-0a60-4d27-a2c3-4a99bf291df5
+
