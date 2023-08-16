@@ -2,6 +2,8 @@
 
 This Chatbot integrates with slack and openAI, performs PII filter and access key types filter. 
 
+[Visit my Medium for explanation](https://medium.com/@rcedros/integrating-slack-bot-with-openai-implementing-brazilian-pii-and-sensitive-secret-filters-ea5c294f8df7)
+
 To make the bot more secure I implemented some security measures:
 
 The bot validates if the user inserted in the thread any Brazilian document such as: CPF, CHN, CNS, RENAVAM, PIS, Voter's Title, Credit Card and e-mail. In this case, the bot makes a parse of the document number by the name of the document type. The idea is that it forwards to openAI, but does not forward the actual document number, example: 
